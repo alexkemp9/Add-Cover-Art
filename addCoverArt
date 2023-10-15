@@ -1,0 +1,106 @@
+#!/bin/bash
+#
+# Music/.addCoverArt
+#
+# Add JPEG cover art to an MP3 (podcast) file
+# (retains the same timestamp)
+#
+# 2022-01-16 added extra help info
+# 2021-08-04 added $FILE + check for webp file & conversion + min ARGS reduced to 1 + MP3 creation
+# 2018-02-13 started
+
+NUMBER_OF_EXPECTED_ARGS=1
+WRONG_ARGS=65
+NOTFOUND=66
+NOTGZIP=67
+
+FILE="/usr/bin/file -b --mime-type"
+FFMPEG="/usr/bin/ffmpeg" # 3.2.5-1~bpo8+1 built with gcc 4.9.2 (Debian 4.9.2-10)
+MP4DIR="/home/alexk/Videos"
+MV="/bin/mv"
+RM="/bin/rm"
+TOUCH="/usr/bin/touch"
+TMP="./.addCoverArt.txt"  # temp timestamp file
+TMP3="./.addCoverArt.mp3" # temp MP3 file
+
+if [ $# -lt $NUMBER_OF_EXPECTED_ARGS ]
+then
+  echo "Usage: `basename $0` MP3-file [JPG-file]" >&2
+  echo "[Add JPEG cover art to an MP3 — podcast — file (1 or 2 parameters; this dir only)]"
+  echo "[WebP files are auto-converted to JPG; MP3 will retain same timestamp]"
+  exit $WRONG_ARGS
+fi
+# 1 or 2 parameters?
+MP3=$1
+if [ -z "$2" ]
+then
+  JPG=$1
+else
+  JPG=$2
+fi
+
+# pre-checks
+# check for webp file
+# webp cannot be directly added as will give "No mimetype is known for stream 1" error
+# ffmpeg CAN convert webp to jpeg (go figure)
+# first, check for WEBP files wrongly labelled as .jpg files
+if [ -s "$JPG.jpg" ]      # non-zero byte file exists
+then
+  CHK=`$FILE "$JPG.jpg"`
+  if [ "$CHK" == "image/webp" ]    # equal-to
+  then
+    echo -e "CAUTION: “$JPG.jpg” is actually a WEBP file.\n(we shall rename the '.jpg' as '.webp')"
+    $MV "$JPG.jpg" "$JPG.webp"
+  fi
+fi
+# second, check for WEBP files + convert to .jpg files
+if [ -s "$JPG.webp" ]     # non-zero byte file exists
+then
+  echo -e "CAUTION: creating “$JPG.jpg” from “$JPG.webp”"
+  $FFMPEG -hide_banner -i "$JPG.webp" "$JPG.jpg"
+  $TOUCH "$JPG.jpg" -r "$JPG.webp"
+fi
+# third, try to create the MP3 if missing
+if [ ! -s "$MP3.mp3" ]    # missing non-zero byte file
+then
+  echo -e "ERROR: The file “$MP3.mp3” needs to pre-exist, but is missing or empty.\n(we shall try to create it from $MP4DIR/$MP3.mp4)"
+  $FFMPEG -hide_banner -i "$MP4DIR/$MP3.mp4" "$MP3.mp3"
+  $TOUCH "$MP3.mp3" -r "$JPG.jpg"
+fi
+
+# check for missing MP3
+if [ ! -s "$MP3.mp3" ]    # missing non-zero byte file
+then
+  echo -e "ERROR: The file “$MP3.mp3” needs to pre-exist in this dir, but is missing or empty.\n(the podcast to add cover-art to - do NOT include the suffix)"
+  exit $WRONG_ARGS
+fi
+# check for missing JPEG
+if [ ! -s "$JPG.jpg" ]    # missing non-zero byte file
+then
+  echo -e "ERROR: The file “$JPG.jpg / .webp” needs to pre-exist, but is missing or empty.\n(this is the cover-art to add - do NOT include the suffix)"
+  exit $WRONG_ARGS
+fi
+
+echo -n "About to add “$JPG.jpg” to “$MP3.mp3”: "
+# Give option to drop-out of script
+read -p "Continue? (y/n): " -n 1 -r
+echo    # move to a new line
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+  echo "Script continues…"
+else
+  echo "Script abandoned."
+  exit 0
+fi
+
+# save MP3 time-stamp
+$TOUCH "$TMP" -r "$MP3.mp3"
+# add the cover-art (saves MP3 as TMP3)
+$FFMPEG -hide_banner -i "$MP3.mp3" -i "$JPG.jpg" -c copy -map 0 -map 1 "$TMP3"
+# restore time-stamp
+$TOUCH "$TMP3" -r "$TMP"
+# restore TMP3 as original MP3
+$MV --force "$TMP3" "$MP3.mp3"
+
+# cleanup
+$RM "$TMP"

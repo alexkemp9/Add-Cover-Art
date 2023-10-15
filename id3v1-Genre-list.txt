@@ -1,0 +1,162 @@
+-------------------
+ ACID
+-------------------
+ 34 Acid
+ 73 Acid Punk
+ 74 Acid Jazz
+===================
+ 20 Alternative
+ 26 Ambient
+145 Anime
+ 90 Avantgarde
+-------------------
+ BLUES
+-------------------
+ 00 Blues
+ 14 Rhythm and Blues
+===================
+ 41 Bass
+107 Booty Bass
+ 65 Cabaret
+127 Drum & Bass
+-------------------
+ CLASSICAL
+-------------------
+ 32 Classical
+===================
+104 Chamber Music
+ 57 Comedy
+-------------------
+ COUNTRY
+-------------------
+  2 Country
+  3 Dance
+===================
+ 58 Cult
+ 88 Celtic
+125 Dance Hall
+ 50 Darkwave
+ 55 Dream
+ 48 Ethnic
+ 54 Eurodance
+-------------------
+ FOLK
+-------------------
+ 80 Folk
+ 81 Folk-Rock
+115 Folklore
+ 53 Pop-Folk
+===================
+116 Ballad
+ 89 Bluegrass
+102 Chanson
+ 97 Chorus
+120 Duet
+ 84 Fast-Fusion
+  5 Funk
+ 30 Fusion
+ 36 Game
+ 59 Gangsta Rap
+126 Goa
+ 38 Gospel
+ 49 Gothic
+  6 Grunge
+  7 Hip-Hop
+ 35 House
+100 Humour
+ 19 Industrial
+ 33 Instrumental
+ 86 Latin
+ 82 National Folk
+ 64 Native American
+ 28 Vocal
+-------------------
+ JAZZ
+-------------------
+ 74 Acid Jazz
+  8 Jazz
+ 29 Jazz & Funk
+===================
+119 Freestyle
+ 63 Jungle
+ 71 Lo-Fi
+ 45 Meditative
+ 77 Musical
+ 64 Native US
+ 10 New Age
+ 66 New Wave
+ 39 Noise
+ 11 Oldies
+103 Opera
+ 12 Other
+ 75 Polka
+-------------------
+ POP
+-------------------
+  4 Disco
+ 46 Instrumental Pop
+ 13 Pop
+ 53 Pop-Folk
+ 62 Pop/Funk
+ 60 Top 40
+===================
+123 A Cappella
+135 Beat
+ 85 Bebob
+132 BritPop
+ 96 Big Band
+136 Christian Gangsta Rap
+ 61 Christian Rap
+139 Crossover
+ 98 Easy Listening
+124 Euro-House
+146 JPop
+133 Negerpunk
+134 Polsk Punk
+ 23 Pranks
+ 67 Psychedelic
+ 43 Punk
+ 15 Rap
+ 68 Rave
+ 16 Reggae
+ 76 Retro
+ 69 Showtunes
+-------------------
+ ROCK
+-------------------
+ 40 Alternative Rock
+  1 Classic Rock
+ 79 Hard Rock
+ 47 Instrumental Rock
+ 17 Rock
+ 78 Rock ’n’ Roll
+ 56 Southern Rock
+===================
+ 99 Acoustic
+141 Christian Rock
+122 Drum Solo
+ 91 Gothic Rock
+131 Indie
+121 Punk Rock
+ 21 Ska
+ 42 Soul
+ 37 Sound clip
+ 24 Soundtrack
+ 44 Space
+-------------------
+ TECHNO
+-------------------
+ 25 Euro-Techno
+  9 Metal
+ 18 Techno
+===================
+138 Black Metal
+ 22 Death Metal
+ 52 Electronic
+129 Hardcore
+137 Heavy Metal
+ 51 Techno-Industrial
+ 70 Trailer
+ 31 Trance
+ 72 Tribal
+ 27 Trip-Hop
