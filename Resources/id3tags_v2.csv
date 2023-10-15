@@ -517,266 +517,269 @@ Matroska,	   T=30,
 ASF/Windows Media, "",	
 RIFF INFO,         "",	
 Notes,	           Field that is used by iTunes to mark tracks as podcasts. Either enter the value 1 or delete the field.,
-PODCASTCATEGORY 
-Internal	PODCASTCATEGORY
-ID3v2.3	TCAT
-ID3v2.4	TCAT
-MP4	catg
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-PODCASTDESC 
-Internal	PODCASTDESC
-ID3v2.3	TDES
-ID3v2.4	TDES
-MP4	ldes
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-PODCASTID 
-Internal	PODCASTID
-ID3v2.3	TGID
-ID3v2.4	TGID
-MP4	egid
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-PODCASTKEYWORDS 
-Internal	PODCASTKEYWORDS
-ID3v2.3	TKWD
-ID3v2.4	TKWD
-MP4	keyw
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-PODCASTURL 
-Internal	PODCASTURL
-ID3v2.3	WFED
-ID3v2.4	WFED
-MP4	purl
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-POPULARIMETER 
-Internal	POPULARIMETER
-ID3v2.3	POPM
-ID3v2.4	POPM
-MP4	
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-Notes	This description is for only ID3v2 tags. The playcounter is an optional value. The Rating is an integer between 1 (worst) and 255 (best). Syntax: Email|Rating|Playcounter
-PUBLISHER 
-Internal	PUBLISHER
-ID3v2.3	TPUB
-ID3v2.4	TPUB
-MP4	©pub
-Matroska	T=30
-ASF/Windows Media	WM/Publisher
-RIFF INFO	
-RATING MM 
-Internal	RATING MM
-ID3v2.3	POPM
-ID3v2.4	POPM
-MP4	
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-Notes	Abstraction on POPULARIMETER as used in MediaMonkey. Track rating from 1 = Bad to 5 = Very good. You can also enter stars * (and - for half stars) for rating the track. Use Options → Tags → Advanced to always display POPULARIMETER values.
-RATING WMP 
-Internal	RATING WMP
-ID3v2.3	POPM
-ID3v2.4	POPM
-MP4	
-Matroska	T=30
-ASF/Windows Media	WM/SharedUserRating
-RIFF INFO	
-Notes	Abstraction on POPULARIMETER as used in Windows Media Player. Track rating from 1 = Bad to 5 = Very good. You can also enter stars * for rating the track. Use Options → Tags → Advanced to always display POPULARIMETER values.
-RELEASETIME 
-Internal	RELEASETIME
-ID3v2.3	TDRL
-ID3v2.4	TDRL
-MP4	
-Matroska	T=50 DATE_RELEASED
-ASF/Windows Media	
-RIFF INFO	
-SETSUBTITLE 
-Internal	SETSUBTITLE
-ID3v2.3	
-ID3v2.4	TSST
-MP4	
-Matroska	T=50 SUBTITLE
-ASF/Windows Media	
-RIFF INFO	
-SUBTITLE 
-Internal	SUBTITLE
-ID3v2.3	TIT3
-ID3v2.4	TIT3
-MP4	
-Matroska	T=30
-ASF/Windows Media	WM/SubTitle
-RIFF INFO	
-TAGGINGTIME 
-Internal	TAGGINGTIME
-ID3v2.3	
-ID3v2.4	TDTG
-MP4	
-Matroska	T=30 DATE_TAGGED
-ASF/Windows Media	
-RIFF INFO	
-TITLE 
-Internal	TITLE
-ID3v2.3	TIT2
-ID3v2.4	TIT2
-MP4	©nam
-Matroska	T=30
-ASF/Windows Media	Title
-RIFF INFO	INAM
-TITLESORT 
-Internal	TITLESORT
-ID3v2.3	TSOT
-ID3v2.4	TSOT
-MP4	sonm
-Matroska	T=30 SORT_WITH
-ASF/Windows Media	WM/TitleSortOrder
-RIFF INFO	
-TRACK 
-Internal	TRACK
-ID3v2.3	TRCK
-ID3v2.4	TRCK
-MP4	trkn
-Matroska	T=30 PART_NUMBER
-ASF/Windows Media	WM/TrackNumber
-RIFF INFO	ITRK
-UNIQUEFILEID 
-Internal	UNIQUEFILEID
-ID3v2.3	UFID
-ID3v2.4	UFID
-MP4	
-Matroska	
-ASF/Windows Media	
-RIFF INFO	
-UNSYNCEDLYRICS 
-Internal	UNSYNCEDLYRICS
-ID3v2.3	USLT
-ID3v2.4	USLT
-MP4	©lyr
-Matroska	T=30 LYRICS
-ASF/Windows Media	WM/Lyrics
-RIFF INFO	
-Notes	Syntax: xxx||Lyrics where xxx = Language of the lyrics, abbreviated by 3 characters according to ISO-639-2.
-WWW 
-Internal	WWW
-ID3v2.3	WXXX
-ID3v2.4	WXXX
-MP4	
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-WWWARTIST 
-Internal	WWWARTIST
-ID3v2.3	WOAR
-ID3v2.4	WOAR
-MP4	
-Matroska	T=30
-ASF/Windows Media	WM/AuthorURL
-RIFF INFO	
-WWWAUDIOFILE 
-Internal	WWWAUDIOFILE
-ID3v2.3	WOAF
-ID3v2.4	WOAF
-MP4	
-Matroska	T=30
-ASF/Windows Media	WM/AudioFileURL
-RIFF INFO	
-WWWAUDIOSOURCE 
-Internal	WWWAUDIOSOURCE
-ID3v2.3	WOAS
-ID3v2.4	WOAS
-MP4	
-Matroska	T=30
-ASF/Windows Media	WM/AudioSourceURL
-RIFF INFO	
-WWWCOMMERCIALINFO 
-Internal	WWWCOMMERCIALINFO
-ID3v2.3	WCOM
-ID3v2.4	WCOM
-MP4	
-Matroska	T=30 PURCHASE_INFO
-ASF/Windows Media	WM/PromotionURL
-RIFF INFO	
-WWWCOPYRIGHT 
-Internal	WWWCOPYRIGHT
-ID3v2.3	WCOP
-ID3v2.4	WCOP
-MP4	
-Matroska	T=30
-ASF/Windows Media	CopyrightURL
-RIFF INFO	
-WWWPAYMENT 
-Internal	WWWPAYMENT
-ID3v2.3	WPAY
-ID3v2.4	WPAY
-MP4	
-Matroska	T=30 PURCHASE_ITEM
-ASF/Windows Media	
-RIFF INFO	
-WWWPUBLISHER 
-Internal	WWWPUBLISHER
-ID3v2.3	WPUB
-ID3v2.4	WPUB
-MP4	
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-WWWRADIOPAGE 
-Internal	WWWRADIOPAGE
-ID3v2.3	WORS
-ID3v2.4	WORS
-MP4	
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-YEAR 
-Internal	YEAR
-ID3v2.3	TYER
-ID3v2.4	TDRC
-MP4	©day
-Matroska	T=50 DATE_RECORDED
-ASF/Windows Media	WM/Year
-RIFF INFO	ICRD
-Other fields 
-Internal	Other fields
-ID3v2.3	TXXX:fieldname
-ID3v2.4	TXXX:fieldname
-MP4	——:com.apple.iTunes:fieldname
-Matroska	T=30 fieldname
-ASF/Windows Media	fieldname
-RIFF INFO	
-Tag fields exclusive to MP4 
-Name in Mp3tag	MP4	iTunes
-DIRECTOR	©dir	
-ITUNESACCOUNT	apID	
-ITUNESADVISORY [1]	rtng	
-ITUNESALBUMID	plID	iTunes Album ID
-ITUNESARTISTID	atID	iTunes Artist ID
-ITUNESCATALOGID	cnID	iTunes Catalog ID
-ITUNESCOMPOSERID	cmID	iTunes Composer ID
-ITUNESCOUNTRYID	sfID	iTunes Store Country ID
-ITUNESGAPLESS [2]	pgap	Gapless album
-ITUNESGENREID	geID	iTunes Genre ID
-ITUNESHDVIDEO	hdvd	Boolean flag for HD video (0/1)
-ITUNESMEDIATYPE [3]	stik	Media type
-ITUNESOWNER	ownr	Owner
-ITUNESPURCHASEDATE	purd	Purchase Date
-RATE	rate	Rating
-SHOWMOVEMENT	shwm	Show Movement
-TOTALDISCS	disk	Total Disc Number
-TOTALTRACKS	trkn	Total Track Number
-TVEPISODE	tves	TV Episode
-TVEPISODEID	tven	TV Episode ID
-TVNETWORK	tvnn	
-TVSEASON	tvsn	TV Season
-TVSHOW	tvsh	Show
-TVSHOWSORT	sosn	Sort Show
-WORK	©wrk	Work Name
+PODCASTCATEGORY,   "",
+Internal,	   PODCASTCATEGORY,
+ID3v2.3,	   TCAT,
+ID3v2.4,	   TCAT,
+MP4,	           catg,
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+PODCASTDESC,       "", 
+Internal,	   PODCASTDESC,
+ID3v2.3,	   TDES,
+ID3v2.4,	   TDES,
+MP4,	           ldes,
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+PODCASTID,         "", 
+Internal,	   PODCASTID
+ID3v2.3,	   TGID
+ID3v2.4,	   TGID
+MP4,	           egid,
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+PODCASTKEYWORDS,   "", 
+Internal,	   PODCASTKEYWORDS,
+ID3v2.3,	   TKWD,
+ID3v2.4,	   TKWD,
+MP4,	           keyw,
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+PODCASTURL,        "", 
+Internal,	   PODCASTURL,
+ID3v2.3,	   WFED,
+ID3v2.4, 	   WFED,
+MP4,	           purl,
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+POPULARIMETER,     "", 
+Internal,	   POPULARIMETER,
+ID3v2.3,	   POPM,
+ID3v2.4,	   POPM,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+Notes,	           This description is for only ID3v2 tags. The playcounter is an optional value. The Rating is an integer between 1 (worst) and 255 (best). Syntax: Email|Rating|Playcounter,
+PUBLISHER,         "", 
+Internal,	   PUBLISHER,
+ID3v2.3,	   TPUB,
+ID3v2.4,	   TPUB,
+MP4,	           ©pub,
+Matroska,	   T=30,
+ASF/Windows Media, WM/Publisher,
+RIFF INFO,         "",	
+RATING MM,         "", 
+Internal,	   RATING MM,
+ID3v2.3, 	   POPM,
+ID3v2.4,	   POPM,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+Notes,	           Abstraction on POPULARIMETER as used in MediaMonkey. Track rating from 1 = Bad to 5 = Very good. You can also enter stars * (and - for half stars) for rating the track. Use Options → Tags → Advanced to always display POPULARIMETER values.,
+RATING WMP,        "",
+Internal,	   RATING WMP,
+ID3v2.3,	   POPM,
+ID3v2.4,	   POPM,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, WM/SharedUserRating,
+RIFF INFO,         "",	
+Notes,	           Abstraction on POPULARIMETER as used in Windows Media Player. Track rating from 1 = Bad to 5 = Very good. You can also enter stars * for rating the track. Use Options → Tags → Advanced to always display POPULARIMETER values.,
+RELEASETIME,       "", 
+Internal,	   RELEASETIME,
+ID3v2.3,	   TDRL,
+ID3v2.4,	   TDRL,
+MP4,               "",	
+Matroska,	   T=50 DATE_RELEASED,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+SETSUBTITLE,       "", 
+Internal,	   SETSUBTITLE,
+ID3v2.3,           "",	
+ID3v2.4,	   TSST,
+MP4,               "",	
+Matroska,	   T=50 SUBTITLE,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+SUBTITLE,          "", 
+Internal,	   SUBTITLE,
+ID3v2.3,	   TIT3,
+ID3v2.4,	   TIT3,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, WM/SubTitle,
+RIFF INFO,         "",	
+TAGGINGTIME ,      "",
+Internal,	   TAGGINGTIME,
+ID3v2.3,           "",	
+ID3v2.4,	   TDTG,
+MP4,               "",	
+Matroska,	   T=30 DATE_TAGGED,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+TITLE,             "", 
+Internal,	   TITLE,
+ID3v2.3,	   TIT2,
+ID3v2.4,	   TIT2,
+MP4,	           ©nam,
+Matroska,	   T=30,
+ASF/Windows Media, Title,
+RIFF INFO,	   INAM,
+TITLESORT,         "", 
+Internal,	   TITLESORT,
+ID3v2.3,	   TSOT,
+ID3v2.4,	   TSOT,
+MP4,	           sonm,
+Matroska,	   T=30 SORT_WITH,
+ASF/Windows Media, WM/TitleSortOrder,
+RIFF INFO,         "",	
+TRACK,             "", 
+Internal,	   TRACK,
+ID3v2.3,	   TRCK,
+ID3v2.4,	   TRCK,
+MP4,	           trkn,
+Matroska,	   T=30 PART_NUMBER,
+ASF/Windows Media, WM/TrackNumber,
+RIFF INFO,	   ITRK,
+UNIQUEFILEID,      "", 
+Internal,	   UNIQUEFILEID,
+ID3v2.3,	   UFID,
+ID3v2.4,	   UFID,
+MP4,               "",	
+Matroska,          "",	
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+UNSYNCEDLYRICS,    "", 
+Internal,	   UNSYNCEDLYRICS,
+ID3v2.3,	   USLT,
+ID3v2.4,	   USLT,
+MP4,	           ©lyr,
+Matroska,	   T=30 LYRICS,
+ASF/Windows Media, WM/Lyrics,
+RIFF INFO,         "",	
+Notes,	           Syntax: xxx||Lyrics where xxx = Language of the lyrics, abbreviated by 3 characters according to ISO-639-2.,
+WWW,               "", 
+Internal,	   WWW,
+ID3v2.3,	   WXXX,
+ID3v2.4,	   WXXX,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+WWWARTIST,         "", 
+Internal,	   WWWARTIST,
+ID3v2.3,	   WOAR,
+ID3v2.4,	   WOAR,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, WM/AuthorURL,
+RIFF INFO,         "",	
+WWWAUDIOFILE,      "", 
+Internal,	   WWWAUDIOFILE,
+ID3v2.3,	   WOAF,
+ID3v2.4,	   WOAF,
+MP4,               "",
+Matroska,	   T=30,
+ASF/Windows Media, WM/AudioFileURL,
+RIFF INFO,         "",	
+WWWAUDIOSOURCE,    "",
+Internal,	   WWWAUDIOSOURCE,
+ID3v2.3,	   WOAS,
+ID3v2.4,	   WOAS,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, WM/AudioSourceURL,
+RIFF INFO,         "",	
+WWWCOMMERCIALINFO, "", 
+Internal,	   WWWCOMMERCIALINFO,
+ID3v2.3,	   WCOM,
+ID3v2.4,	   WCOM,
+MP4,               "",	
+Matroska,	   T=30 PURCHASE_INFO,
+ASF/Windows Media, WM/PromotionURL,
+RIFF INFO,         "",	
+WWWCOPYRIGHT,      "", 
+Internal,	   WWWCOPYRIGHT,
+ID3v2.3,	   WCOP,
+ID3v2.4,	   WCOP,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, CopyrightURL,
+RIFF INFO,         "",	
+WWWPAYMENT,        "", 
+Internal,	   WWWPAYMENT,
+ID3v2.3, 	   WPAY,
+ID3v2.4,	   WPAY,
+MP4,               "",	
+Matroska,	   T=30 PURCHASE_ITEM,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+WWWPUBLISHER,       "", 
+Internal,	   WWWPUBLISHER,
+ID3v2.3,	   WPUB,
+ID3v2.4,	   WPUB,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+WWWRADIOPAGE,      "", 
+Internal,	   WWWRADIOPAGE,
+ID3v2.3,	   WORS,
+ID3v2.4,	   WORS,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+YEAR,              "", 
+Internal,	   YEAR,
+ID3v2.3,	   TYER,
+ID3v2.4,	   TDRC,
+MP4,	           ©day,
+Matroska,	   T=50 DATE_RECORDED,
+ASF/Windows Media, WM/Year,
+RIFF INFO,	   ICRD,
+Other fields,      "", 
+Internal,	   Other fields,
+ID3v2.3,	   TXXX:fieldname,
+ID3v2.4,	   TXXX:fieldname,
+MP4,	           ----:com.apple.iTunes:fieldname,
+Matroska,	   T=30 fieldname,
+ASF/Windows Media, fieldname,
+RIFF INFO,         "",
+
+
+
+Tag fields exclusive to MP4
+Name in Mp3tag,	   MP4,	  iTunes,
+DIRECTOR,	   ©dir	  "",
+ITUNESACCOUNT,	   apID	  "",
+ITUNESADVISORY [1],rtng,  ""	
+ITUNESALBUMID,	   plID,  iTunes Album ID,
+ITUNESARTISTID,	   atID,  iTunes Artist ID,
+ITUNESCATALOGID,   cnID,  iTunes Catalog ID,
+ITUNESCOMPOSERID,  cmID,  iTunes Composer ID,
+ITUNESCOUNTRYID,   sfID,  iTunes Store Country ID,
+ITUNESGAPLESS [2], pgap,  Gapless album,
+ITUNESGENREID,	   geID,  iTunes Genre ID,
+ITUNESHDVIDEO,	   hdvd,  Boolean flag for HD video (0/1),
+ITUNESMEDIATYPE [3],stik, Media type,
+ITUNESOWNER,	   ownr,  Owner,
+ITUNESPURCHASEDATE,purd,  Purchase Date,
+RATE,	           rate,  Rating,
+SHOWMOVEMENT,      shwm,  Show Movement,
+TOTALDISCS,	   dis,	  Total Disc Number,
+TOTALTRACKS,	   trkn,  Total Track Number,
+TVEPISODE,	   tves,  TV Episode,
+TVEPISODEID, 	   tven,  TV Episode ID,
+TVNETWORK,	   tvnn,  "",
+TVSEASON,	   tvsn,  TV Season,
+TVSHOW,	           tvsh,  Show,
+TVSHOWSORT,	   sosn,  Sort Show,
+WORK,	           ©wrk,  Work Name,
