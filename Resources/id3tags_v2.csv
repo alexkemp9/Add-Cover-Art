@@ -131,392 +131,392 @@ Matroska,	   T=30,
 ASF/Windows Media, WM/Conductor,
 RIFF INFO,         "",	
 CONTENTGROUP,      "", 
-Internal	CONTENTGROUP
-ID3v2.3	TIT1
-ID3v2.4	TIT1
-MP4	©grp
-Matroska	T=30
-ASF/Windows Media	WM/ContentGroupDescription
-RIFF INFO	
-COPYRIGHT 
-Internal	COPYRIGHT
-ID3v2.3	TCOP
-ID3v2.4	TCOP
-MP4	cprt
-Matroska	T=30
-ASF/Windows Media	Copyright
-RIFF INFO	ICOP
-DATE 
-Internal	DATE
-ID3v2.3	TDAT
-ID3v2.4	TXXX:DATE
-MP4	
-Matroska	
-ASF/Windows Media	
-RIFF INFO	
-DESCRIPTION 
-Internal	DESCRIPTION
-ID3v2.3	
-ID3v2.4	
-MP4	desc
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-DISCNUMBER 
-Internal	DISCNUMBER
-ID3v2.3	TPOS
-ID3v2.4	TPOS
-MP4	disk
-Matroska	T=50 PART_NUMBER
-ASF/Windows Media	WM/PartOfSet
-RIFF INFO	
-ENCODEDBY 
-Internal	ENCODEDBY
-ID3v2.3	TENC
-ID3v2.4	TENC
-MP4	
-Matroska	T=30 ENCODED_BY
-ASF/Windows Media	WM/EncodedBy
-RIFF INFO	
-ENCODERSETTINGS 
-Internal	ENCODERSETTINGS
-ID3v2.3	TSSE
-ID3v2.4	TSSE
-MP4	
-Matroska	T=30
-ASF/Windows Media	WM/EncodingSettings
-RIFF INFO	
-ENCODINGTIME 
-Internal	ENCODINGTIME
-ID3v2.3	
-ID3v2.4	TDEN
-MP4	
-Matroska	T=30
-ASF/Windows Media	WM/EncodingTime
-RIFF INFO	
-FILEOWNER 
-Internal	FILEOWNER
-ID3v2.3	TOWN
-ID3v2.4	TOWN
-MP4	
-Matroska	T=30 PURCHASE_OWNER
-ASF/Windows Media	
-RIFF INFO	
-FILETYPE 
-Internal	FILETYPE
-ID3v2.3	TFLT
-ID3v2.4	TFLT
-MP4	
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-GENRE 
-Internal	GENRE
-ID3v2.3	TCON
-ID3v2.4	TCON
-MP4	©gen | gnre
-Matroska	T=30
-ASF/Windows Media	WM/Genre
-RIFF INFO	IGNR
-GROUPING 
-Internal	GROUPING
-ID3v2.3	GRP1
-ID3v2.4	GRP1
-MP4	
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-INITIALKEY 
-Internal	INITIALKEY
-ID3v2.3	TKEY
-ID3v2.4	TKEY
-MP4	
-Matroska	T=30 INITIAL_KEY
-ASF/Windows Media	WM/InitialKey
-RIFF INFO	
-INVOLVEDPEOPLE 
-Internal	INVOLVEDPEOPLE
-ID3v2.3	IPLS
-ID3v2.4	TIPL
-MP4	
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-Notes	Role1:Person1;Role2:Person2; … e.g., Drums:Jamie Graham;
-ISRC 
-Internal	ISRC
-ID3v2.3	TSRC
-ID3v2.4	TSRC
-MP4	
-Matroska	T=30
-ASF/Windows Media	WM/ISRC
-RIFF INFO	
-LANGUAGE 
-Internal	LANGUAGE
-ID3v2.3	TLAN
-ID3v2.4	TLAN
-MP4	
-Matroska	T=30
-ASF/Windows Media	WM/Language
-RIFF INFO	ILNG
-LENGTH 
-Internal	LENGTH
-ID3v2.3	TLEN
-ID3v2.4	TLEN
-MP4	
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-LYRICIST 
-Internal	LYRICIST
-ID3v2.3	TEXT
-ID3v2.4	TEXT
-MP4	
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-MEDIATYPE 
-Internal	MEDIATYPE
-ID3v2.3	TMED
-ID3v2.4	TMED
-MP4	
-Matroska	T=50 ORIGINAL_MEDIA_TYPE
-ASF/Windows Media	
-RIFF INFO	
-MIXARTIST 
-Internal	MIXARTIST
-ID3v2.3	TPE4
-ID3v2.4	TPE4
-MP4	
-Matroska	T=30 REMIXED_BY
-ASF/Windows Media	
-RIFF INFO	
-MOOD 
-Internal	MOOD
-ID3v2.3	
-ID3v2.4	TMOO
-MP4	
-Matroska	T=30
-ASF/Windows Media	WM/Mood
-RIFF INFO	
-MOVEMENTNAME 
-Internal	MOVEMENTNAME
-ID3v2.3	MVNM
-ID3v2.4	MVNM
-MP4	©mvn
-Matroska	T=20 TITLE
-ASF/Windows Media	
-RIFF INFO	
-MOVEMENT 
-Internal	MOVEMENT
-ID3v2.3	MVIN
-ID3v2.4	MVIN
-MP4	©mvi
-Matroska	T=20 PART_NUMBER
-ASF/Windows Media	
-RIFF INFO	
-MOVEMENTTOTAL 
-Internal	MOVEMENTTOTAL
-ID3v2.3	MVIN
-ID3v2.4	MVIN
-MP4	©mvc
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-MUSICBRAINZ_ALBUMARTISTID 
-Internal	MUSICBRAINZ_ALBUMARTISTID
-ID3v2.3	TXXX:MusicBrainz Album Artist Id
-ID3v2.4	TXXX:MusicBrainz Album Artist Id
-MP4	----:com.apple.iTunes:MusicBrainz Album Artist Id
-Matroska	
-ASF/Windows Media	
-RIFF INFO	
-MUSICBRAINZ_ALBUMID 
-Internal	MUSICBRAINZ_ALBUMID
-ID3v2.3	TXXX:MusicBrainz Album Id
-ID3v2.4	TXXX:MusicBrainz Album Id
-MP4	----:com.apple.iTunes:MusicBrainz Album Id
-Matroska	
-ASF/Windows Media	
-RIFF INFO	
-MUSICBRAINZ_ALBUMRELEASECOUNTRY 
-Internal	MUSICBRAINZ_ALBUMRELEASECOUNTRY
-ID3v2.3	TXXX:MusicBrainz Album Release Country
-ID3v2.4	TXXX:MusicBrainz Album Release Country
-MP4	----:com.apple.iTunes:MusicBrainz Album Release Country
-Matroska	
-ASF/Windows Media	
-RIFF INFO	
-MUSICBRAINZ_ALBUMSTATUS 
-Internal	MUSICBRAINZ_ALBUMSTATUS
-ID3v2.3	TXXX:MusicBrainz Album Status
-ID3v2.4	TXXX:MusicBrainz Album Status
-MP4	----:com.apple.iTunes:MusicBrainz Album Status
-Matroska	
-ASF/Windows Media	
-RIFF INFO	
-MUSICBRAINZ_ALBUMTYPE 
-Internal	MUSICBRAINZ_ALBUMTYPE
-ID3v2.3	TXXX:MusicBrainz Album Type
-ID3v2.4	TXXX:MusicBrainz Album Type
-MP4	----:com.apple.iTunes:MusicBrainz Album Type
-Matroska	
-ASF/Windows Media	
-RIFF INFO	
-MUSICBRAINZ_ARTISTID 
-Internal	MUSICBRAINZ_ARTISTID
-ID3v2.3	TXXX:MusicBrainz Artist Id
-ID3v2.4	TXXX:MusicBrainz Artist Id
-MP4	----:com.apple.iTunes:MusicBrainz Artist Id
-Matroska	
-ASF/Windows Media	
-RIFF INFO	
-MUSICBRAINZ_DISCID 
-Internal	MUSICBRAINZ_DISCID
-ID3v2.3	TXXX:MusicBrainz Disc Id
-ID3v2.4	TXXX:MusicBrainz Disc Id
-MP4	----:com.apple.iTunes:MusicBrainz Disc Id
-Matroska	
-ASF/Windows Media	
-RIFF INFO	
-MUSICBRAINZ_ORIGINALALBUMID 
-Internal	MUSICBRAINZ_ORIGINALALBUMID
-ID3v2.3	TXXX:MusicBrainz Original Album Id
-ID3v2.4	TXXX:MusicBrainz Original Album Id
-MP4	----:com.apple.iTunes:MusicBrainz Original Album Id
-Matroska	
-ASF/Windows Media	
-RIFF INFO	
-MUSICBRAINZ_ORIGINALARTISTID 
-Internal	MUSICBRAINZ_ORIGINALARTISTID
-ID3v2.3	TXXX:MusicBrainz Original Artist Id
-ID3v2.4	TXXX:MusicBrainz Original Artist Id
-MP4	----:com.apple.iTunes:MusicBrainz Original Artist Id
-Matroska	
-ASF/Windows Media	
-RIFF INFO	
-MUSICBRAINZ_RELEASEGROUPID 
-Internal	MUSICBRAINZ_RELEASEGROUPID
-ID3v2.3	TXXX:MusicBrainz Release Group Id
-ID3v2.4	TXXX:MusicBrainz Release Group Id
-MP4	----:com.apple.iTunes:MusicBrainz Release Group Id
-Matroska	
-ASF/Windows Media	
-RIFF INFO	
-MUSICBRAINZ_RELEASETRACKID 
-Internal	MUSICBRAINZ_RELEASETRACKID
-ID3v2.3	TXXX:MusicBrainz Release Track Id
-ID3v2.4	TXXX:MusicBrainz Release Track Id
-MP4	----:com.apple.iTunes:MusicBrainz Release Track Id
-Matroska	
-ASF/Windows Media	
-RIFF INFO	
-MUSICBRAINZ_TRACKID 
-Internal	MUSICBRAINZ_TRACKID
-ID3v2.3	UFID:http://musicbrainz.org
-ID3v2.4	UFID:http://musicbrainz.org
-MP4	----:com.apple.iTunes:MusicBrainz Track Id
-Matroska	
-ASF/Windows Media	
-RIFF INFO	
-MUSICBRAINZ_TRMID 
-Internal	MUSICBRAINZ_TRMID
-ID3v2.3	TXXX:MusicBrainz TRM Id
-ID3v2.4	TXXX:MusicBrainz TRM Id
-MP4	----:com.apple.iTunes:MusicBrainz TRM Id
-Matroska	
-ASF/Windows Media	
-RIFF INFO	
-MUSICBRAINZ_WORKID 
-Internal	MUSICBRAINZ_WORKID
-ID3v2.3	TXXX:MusicBrainz Work Id
-ID3v2.4	TXXX:MusicBrainz Work Id
-MP4	----:com.apple.iTunes:MusicBrainz Work Id
-Matroska	
-ASF/Windows Media	
-RIFF INFO	
-MUSICIANCREDITS 
-Internal	MUSICIANCREDITS
-ID3v2.3	
-ID3v2.4	TMCL
-MP4	
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-Notes	Role1:Person1;Role2:Person2; … e.g., Drums:Jamie Graham;
-NARRATOR 
-Internal	NARRATOR
-ID3v2.3	
-ID3v2.4	
-MP4	©nrt
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-NETRADIOOWNER 
-Internal	NETRADIOOWNER
-ID3v2.3	TRSO
-ID3v2.4	TRSO
-MP4	
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-NETRADIOSTATION 
-Internal	NETRADIOSTATION
-ID3v2.3	TRSN
-ID3v2.4	TRSN
-MP4	
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-ORIGALBUM 
-Internal	ORIGALBUM
-ID3v2.3	TOAL
-ID3v2.4	TOAL
-MP4	
-Matroska	T=30
-ASF/Windows Media	WM/OriginalAlbumTitle
-RIFF INFO	
-ORIGARTIST 
-Internal	ORIGARTIST
-ID3v2.3	TOPE
-ID3v2.4	TOPE
-MP4	
-Matroska	T=30
-ASF/Windows Media	WM/OriginalArtist
-RIFF INFO	
-ORIGFILENAME 
-Internal	ORIGFILENAME
-ID3v2.3	TOFN
-ID3v2.4	TOFN
-MP4	
-Matroska	T=30
-ASF/Windows Media	WM/OriginalFilename
-RIFF INFO	
-ORIGLYRICIST 
-Internal	ORIGLYRICIST
-ID3v2.3	TOLY
-ID3v2.4	TOLY
-MP4	
-Matroska	T=30
-ASF/Windows Media	WM/OriginalLyricist
-RIFF INFO	
-ORIGYEAR 
-Internal	ORIGYEAR
-ID3v2.3	TORY
-ID3v2.4	TDOR
-MP4	
-Matroska	T=30
-ASF/Windows Media	WM/OriginalReleaseYear
-RIFF INFO	
-PODCAST 
-Internal	PODCAST
-ID3v2.3	PCST
-ID3v2.4	PCST
-MP4	pcst
-Matroska	T=30
-ASF/Windows Media	
-RIFF INFO	
-Notes	Field that is used by iTunes to mark tracks as podcasts. Either enter the value 1 or delete the field.
+Internal,	   CONTENTGROUP,
+ID3v2.3,	   TIT1,
+ID3v2.4 	   TIT1,
+MP4,	           ©grp,
+Matroska,	   T=30,
+ASF/Windows Media, WM/ContentGroupDescription,
+RIFF INFO,         "",	
+COPYRIGHT,         "", 
+Internal,	   COPYRIGHT,
+ID3v2.3,	   TCOP,
+ID3v2.4,	   TCOP,
+MP4,	           cprt,
+Matroska,	   T=30,
+ASF/Windows Media, Copyright,
+RIFF INFO,	   ICOP,
+DATE,              "", 
+Internal,	   DATE,
+ID3v2.3,	   TDAT,
+ID3v2.4,	   TXXX:DATE,
+MP4,               "",	
+Matroska,          "",	
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+DESCRIPTION.       "", 
+Internal,  	   DESCRIPTION,
+ID3v2.3,           "",	
+ID3v2.4,           "",	
+MP4,	           desc,
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+DISCNUMBER,        "", 
+Internal,	   DISCNUMBER,
+ID3v2.3, 	   TPOS,
+ID3v2.4,	   TPOS,
+MP4,	           disk,
+Matroska,	   T=50 PART_NUMBER,
+ASF/Windows Media, WM/PartOfSet,
+RIFF INFO,         "",	
+ENCODEDBY,         "", 
+Internal,	   ENCODEDBY,
+ID3v2.3,	   TENC,
+ID3v2.4,	   TENC,
+MP4,               "",	
+Matroska,	   T=30 ENCODED_BY,
+ASF/Windows Media, WM/EncodedBy,
+RIFF INFO,         "",	
+ENCODERSETTINGS,   "", 
+Internal,	   ENCODERSETTINGS,
+ID3v2.3,	   TSSE,
+ID3v2.4,	   TSSE,
+MP4,	           "",
+Matroska,	   T=30,
+ASF/Windows Media, WM/EncodingSettings,
+RIFF INFO,         "",	
+ENCODINGTIME,      "", 
+Internal,  	   ENCODINGTIME,
+ID3v2.3,           "",	
+ID3v2.4,	   TDEN,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, WM/EncodingTime,
+RIFF INFO,         "",	
+FILEOWNER,         "", 
+Internal,	   FILEOWNER,
+ID3v2.3,	   TOWN,
+ID3v2.4,	   TOWN,
+MP4,               "",	
+Matroska,	   T=30 PURCHASE_OWNER,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+FILETYPE,          "", 
+Internal,	   FILETYPE,
+ID3v2.3,	   TFLT,
+ID3v2.4,	   TFLT,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+GENRE,             "", 
+Internal,	   GENRE,
+ID3v2.3,	   TCON,
+ID3v2.4,	   TCON,
+MP4,	           ©gen | gnre,
+Matroska,	   T=30,
+ASF/Windows Media, WM/Genre,
+RIFF INFO,	   IGNR,
+GROUPING,          "", 
+Internal,	   GROUPING,
+ID3v2.3,	   GRP1,
+ID3v2.4,	   GRP1,
+MP4,	           "",
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+INITIALKEY,        "", 
+Internal,	   INITIALKEY,
+ID3v2.3,	   TKEY,
+ID3v2.4,	   TKEY,
+MP4,	           "",
+Matroska,	   T=30 INITIAL_KEY,
+ASF/Windows Media, WM/InitialKey,
+RIFF INFO,	   "",
+INVOLVEDPEOPLE,    "", 
+Internal,	   INVOLVEDPEOPLE,
+ID3v2.3,	   IPLS,
+ID3v2.4,	   TIPL,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+Notes,	           Role1:Person1;Role2:Person2; … e.g., Drums:Jamie Graham;,
+ISRC,              "", 
+Internal,	   ISRC,
+ID3v2.3,	   TSRC,
+ID3v2.4,	   TSRC,
+MP4,	           "",
+Matroska,	   T=30,
+ASF/Windows Media, WM/ISRC,
+RIFF INFO,         "",	
+LANGUAGE,          "", 
+Internal,	   LANGUAGE,
+ID3v2.3,	   TLAN,
+ID3v2.4,	   TLAN,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, WM/Language,
+RIFF INFO,	   ILNG,
+LENGTH,            "", 
+Internal,	   LENGTH,
+ID3v2.3,	   TLEN,
+ID3v2.4,	   TLEN,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media,  "",	
+RIFF INFO,         "",	
+LYRICIST,          "", 
+Internal,	   LYRICIST,
+ID3v2.3,	   TEXT,
+ID3v2.4,	   TEXT,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+MEDIATYPE,         "", 
+Internal,	   MEDIATYPE,
+ID3v2.3,	   TMED,
+ID3v2.4,	   TMED,
+MP4,               "",	
+Matroska,	   T=50 ORIGINAL_MEDIA_TYPE,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+MIXARTIST,         "", 
+Internal,	   MIXARTIST,
+ID3v2.3,	   TPE4,
+ID3v2.4,	   TPE4,
+MP4,               "",	
+Matroska,	   T=30 REMIXED_BY,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+MOOD,              "", 
+Internal,	   MOOD,
+ID3v2.3,           "",	
+ID3v2.4,	   TMOO,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, WM/Mood,
+RIFF INFO,         "",	
+MOVEMENTNAME,      "", 
+Internal,	   MOVEMENTNAME,
+ID3v2.3,	   MVNM,
+ID3v2.4,	   MVNM,
+MP4,	           ©mvn,
+Matroska,	   T=20 TITLE,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+MOVEMENT,          "", 
+Internal,	   MOVEMENT,
+ID3v2.3,	   MVIN,
+ID3v2.4,	   MVIN,
+MP4,	           ©mvi,
+Matroska,	   T=20 PART_NUMBER,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+MOVEMENTTOTAL,     "", 
+Internal,	   MOVEMENTTOTAL,
+ID3v2.3,	   MVIN,
+ID3v2.4,	   MVIN,
+MP4,	           ©mvc,
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+MUSICBRAINZ_ALBUMARTISTID,  "", 
+Internal,	   MUSICBRAINZ_ALBUMARTISTID,
+ID3v2.3,	   TXXX:MusicBrainz Album Artist Id,
+ID3v2.4,	   TXXX:MusicBrainz Album Artist Id,
+MP4,	           ----:com.apple.iTunes:MusicBrainz Album Artist Id,
+Matroska,          "",	
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+MUSICBRAINZ_ALBUMID,  "", 
+Internal,	   MUSICBRAINZ_ALBUMID,
+ID3v2.3,	   TXXX:MusicBrainz Album Id,
+ID3v2.4,	   TXXX:MusicBrainz Album Id,
+MP4,	           ----:com.apple.iTunes:MusicBrainz Album Id,
+Matroska,	   "",
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+MUSICBRAINZ_ALBUMRELEASECOUNTRY, "",
+Internal,	   MUSICBRAINZ_ALBUMRELEASECOUNTRY,
+ID3v2.3,	   TXXX:MusicBrainz Album Release Country,
+ID3v2.4,	   TXXX:MusicBrainz Album Release Country,
+MP4,	           ----:com.apple.iTunes:MusicBrainz Album Release Country,
+Matroska,          "",	
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+MUSICBRAINZ_ALBUMSTATUS , "",
+Internal,	   MUSICBRAINZ_ALBUMSTATUS,
+ID3v2.3,	   TXXX:MusicBrainz Album Status,
+ID3v2.4,	   TXXX:MusicBrainz Album Status,
+MP4,	           ----:com.apple.iTunes:MusicBrainz Album Status,
+Matroska,          "",	
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+MUSICBRAINZ_ALBUMTYPE, "",
+Internal,	   MUSICBRAINZ_ALBUMTYPE,
+ID3v2.3,	   TXXX:MusicBrainz Album Type,
+ID3v2.4,	   TXXX:MusicBrainz Album Type,
+MP4,	           ----:com.apple.iTunes:MusicBrainz Album Type,
+Matroska,          "",	
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+MUSICBRAINZ_ARTISTID, "", 
+Internal,	   MUSICBRAINZ_ARTISTID,
+ID3v2.3,	   TXXX:MusicBrainz Artist Id,
+ID3v2.4,	   TXXX:MusicBrainz Artist Id,
+MP4,	           ----:com.apple.iTunes:MusicBrainz Artist Id,
+Matroska,          "",	
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+MUSICBRAINZ_DISCID, "", 
+Internal,	   MUSICBRAINZ_DISCID,
+ID3v2.3,	   TXXX:MusicBrainz Disc Id,
+ID3v2.4,	   TXXX:MusicBrainz Disc Id,
+MP4,	           ----:com.apple.iTunes:MusicBrainz Disc Id,
+Matroska,          "",	
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+MUSICBRAINZ_ORIGINALALBUMID, "",
+Internal,	   MUSICBRAINZ_ORIGINALALBUMID,
+ID3v2.3,	   TXXX:MusicBrainz Original Album Id,
+ID3v2.4,	   TXXX:MusicBrainz Original Album Id,
+MP4,	           ----:com.apple.iTunes:MusicBrainz Original Album Id,
+Matroska.          "",	
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+MUSICBRAINZ_ORIGINALARTISTID, "", 
+Internal,	   MUSICBRAINZ_ORIGINALARTISTID,
+ID3v2.3,	   TXXX:MusicBrainz Original Artist Id,
+ID3v2.4,	   TXXX:MusicBrainz Original Artist Id,
+MP4,	           ----:com.apple.iTunes:MusicBrainz Original Artist Id,
+Matroska,          "",	
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+MUSICBRAINZ_RELEASEGROUPID, 
+Internal,	   MUSICBRAINZ_RELEASEGROUPID,
+ID3v2.3,	   TXXX:MusicBrainz Release Group Id,
+ID3v2.4,	   TXXX:MusicBrainz Release Group Id,
+MP4,	           ----:com.apple.iTunes:MusicBrainz Release Group Id,
+Matroska,          "",	
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+MUSICBRAINZ_RELEASETRACKID, "",
+Internal,	   MUSICBRAINZ_RELEASETRACKID,
+ID3v2.3,	   TXXX:MusicBrainz Release Track Id,
+ID3v2.4,	   TXXX:MusicBrainz Release Track Id,
+MP4,	           ----:com.apple.iTunes:MusicBrainz Release Track Id,
+Matroska,          "",	
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+MUSICBRAINZ_TRACKID, "", 
+Internal,	   MUSICBRAINZ_TRACKID,
+ID3v2.3,	   UFID:http://musicbrainz.org,
+ID3v2.4,	   UFID:http://musicbrainz.org,
+MP4,	           ----:com.apple.iTunes:MusicBrainz Track Id,
+Matroska,          "",	
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+MUSICBRAINZ_TRMID, "", 
+Internal,	   MUSICBRAINZ_TRMID,
+ID3v2.3,	   TXXX:MusicBrainz TRM Id,
+ID3v2.4,	   TXXX:MusicBrainz TRM Id,
+MP4,	           ----:com.apple.iTunes:MusicBrainz TRM Id,
+Matroska,          "",	
+ASF/Windows Media, "",	
+RIFF INFO,	   "",
+MUSICBRAINZ_WORKID, "", 
+Internal,	   MUSICBRAINZ_WORKID,
+ID3v2.3,	   TXXX:MusicBrainz Work Id,
+ID3v2.4 	   TXXX:MusicBrainz Work Id,
+MP4,	           ----:com.apple.iTunes:MusicBrainz Work Id,
+Matroska,          "",	
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+MUSICIANCREDITS, 
+Internal,	   MUSICIANCREDITS,
+ID3v2.3,           "",	
+ID3v2.4, 	   TMCL,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+Notes,	           Role1:Person1;Role2:Person2; … e.g., Drums:Jamie Graham;,
+NARRATOR,          "", 
+Internal,	   NARRATOR,
+ID3v2.3,           "",	
+ID3v2.4,           "",	
+MP4,	           ©nrt,
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+NETRADIOOWNER,     "", 
+Internal,	   NETRADIOOWNER,
+ID3v2.3,	   TRSO,
+ID3v2.4,	   TRSO,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+NETRADIOSTATION,   "", 
+Internal,	   NETRADIOSTATION,
+ID3v2.3,	   TRSN,
+ID3v2.4,	   TRSN,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+ORIGALBUM,         "", 
+Internal,	   ORIGALBUM,
+ID3v2.3,	   TOAL,
+ID3v2.4,	   TOAL,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, WM/OriginalAlbumTitle,
+RIFF INFO,         "",	
+ORIGARTIST,        "", 
+Internal,	   ORIGARTIST,
+ID3v2.3,	   TOPE,
+ID3v2.4,	   TOPE,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, WM/OriginalArtist,
+RIFF INFO,         "",	
+ORIGFILENAME,      "", 
+Internal,	   ORIGFILENAME,
+ID3v2.3,	   TOFN,
+ID3v2.4,	   TOFN,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, WM/OriginalFilename,
+RIFF INFO,         "",	
+ORIGLYRICIST,      "", 
+Internal,	   ORIGLYRICIST,
+ID3v2.3,	   TOLY,
+ID3v2.4,	   TOLY,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, WM/OriginalLyricist,
+RIFF INFO,         "",	
+ORIGYEAR,          "", 
+Internal,	   ORIGYEAR,
+ID3v2.3,	   TORY,
+ID3v2.4,	   TDOR,
+MP4,               "",	
+Matroska,	   T=30,
+ASF/Windows Media, WM/OriginalReleaseYear,
+RIFF INFO,         "",	
+PODCAST,           "", 
+Internal,	   PODCAST,
+ID3v2.3,	   PCST,
+ID3v2.4,	   PCST,
+MP4,	           pcst,
+Matroska,	   T=30,
+ASF/Windows Media, "",	
+RIFF INFO,         "",	
+Notes,	           Field that is used by iTunes to mark tracks as podcasts. Either enter the value 1 or delete the field.,
 PODCASTCATEGORY 
 Internal	PODCASTCATEGORY
 ID3v2.3	TCAT
