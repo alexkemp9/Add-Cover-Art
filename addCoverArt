@@ -5,6 +5,7 @@
 # Add JPEG cover art to an MP3 (music/podcast) file
 # (retains the same timestamp)
 #
+# 2023-10-15 changed 'podcast' to 'music/podcast'
 # 2022-01-16 added extra help info
 # 2021-08-04 added $FILE + check for webp file & conversion + min ARGS reduced to 1 + MP3 creation
 # 2018-02-13 started
@@ -26,7 +27,7 @@ TMP3="./.addCoverArt.mp3" # temp MP3 file
 if [ $# -lt $NUMBER_OF_EXPECTED_ARGS ]
 then
   echo "Usage: `basename $0` MP3-file [JPG-file]" >&2
-  echo "[Add JPEG cover art to an MP3 — podcast — file (1 or 2 parameters; this dir only)]"
+  echo "[Add JPEG cover art to an MP3 — music/podcast — file (1 or 2 parameters; this dir only)]"
   echo "[WebP files are auto-converted to JPG; MP3 will retain same timestamp]"
   exit $WRONG_ARGS
 fi
@@ -71,7 +72,7 @@ fi
 # check for missing MP3
 if [ ! -s "$MP3.mp3" ]    # missing non-zero byte file
 then
-  echo -e "ERROR: The file “$MP3.mp3” needs to pre-exist in this dir, but is missing or empty.\n(the podcast to add cover-art to - do NOT include the suffix)"
+  echo -e "ERROR: The file “$MP3.mp3” needs to pre-exist in this dir, but is missing or empty.\n(the music/podcast to add cover-art to - do NOT include the suffix)"
   exit $WRONG_ARGS
 fi
 # check for missing JPEG
