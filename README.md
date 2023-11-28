@@ -29,7 +29,7 @@ Usage: addCoverArt MP3-file [JPG-file]
 You need both music/podcast + cover-art files within the same directory. To make life super-simple for yourself, name both files the same (except for the “.mp3”, “.jpg” : the TLS (3-letter suffix) at the end of each file). Then, with your command-prompt at the same dir that contains the files, run the script as follows:
 
 ```bash
-$ chmod 0700 ~/.local/sbin/addCoverArt my-music-file my-cover-art-file
+$ ~/.local/sbin/addCoverArt my-music-file my-cover-art-file
 ```
 You can actually just run *“addCoverArt my-music-file”* (no quotes) if:    
 1. '~/.local/sbin/' is within *$PATH*
